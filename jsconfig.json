@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "jsx": "react",
+    "paths": {
+      "@Routes": ["routes"],
+      "@Routes/*": ["Routes/*"],
+
+      "@UI/Atoms": ["components/atoms"],
+      "@UI/Atoms/*": ["components/atoms/*"],
+      "@UI/Molecules": ["components/molecules"],
+      "@UI/Molecules/*": ["components/molecules/*"],
+      "@UI/Organisms": ["components/organisms"],
+      "@UI/Organisms/*": ["components/organisms/*"],
+      "@UI/Templates": ["components/templates"],
+      "@UI/Templates/*": ["components/templates/*"],
+      "@UI/Pages": ["pages"],
+      "@UI/Pages/*": ["pages/*"],
+
+      "@Config": ["config"],
+      "@Config/*": ["config/*"],
+
+      "@Redux": ["redux"],
+      "@Redux/*": ["redux/*"],
+
+      "@Static": ["static"],
+      "@Static/*": ["static/*"],
+
+      "@Styles": ["styles"],
+      "@Styles/*": ["styles/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
